@@ -42,9 +42,12 @@ function checkAnswer() {
 }   
 
 
-$(document).keyup(function (e) {
-    if (e.keyCode == 13) { // enter
-      Search();
-      return false; //you can also say e.preventDefault();
-    }
-  });
+// $(document).keyup(function (e) {
+//     if (e.keyCode == 13) { // enter
+//       Search();
+//       return false; //you can also say e.preventDefault();
+//     }
+//   });
+
+
+//   https://mydb-fafc.restdb.io/rest/people?q={"name": "Joe", "age": 17}

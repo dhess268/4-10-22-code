@@ -15,7 +15,7 @@
 	<body>
 		<h1>Anime Quote Guesser</h1>
 		<h2 id = 'quote'>QUOTE</h2>
-		<form name="formname" action="#" >
+		<form name="formname" action="#" onkeydown="return event.key != 'Enter';">
 			<label for = "guess">What anime is this quote from or who said this?</label>
 			<input id = "guess" name = "guess" type="text">
 			<button type="button" id = 'submit'>SUBMIT</button>
